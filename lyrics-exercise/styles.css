@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1587363974587-99c02f94bafd");
+    text-align: center;
+    margin-top: 50px;
+  }
+
+h1 {
+    font-family: "filmotype-lacrosse", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    color: #102940;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-family: "panel-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #102940;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: "panel-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.verse {
+    margin-bottom: 50px;
+}
+
+main {
+    background-color:rgba(247, 251, 255, 0.5);
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    padding-bottom: 25px;
+}
+
+footer {
+    margin-bottom: 40px;
+}

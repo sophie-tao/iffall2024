@@ -59,3 +59,8 @@ a {
 code {
     color: steelblue;
 }
+
+.fa-solid {
+    font-size: 0.8em;
+    color: palevioletred;
+}

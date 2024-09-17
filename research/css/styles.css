@@ -1,0 +1,99 @@
+body {
+    margin-left: 15%;
+    margin-top:80px;
+    margin-right: 35%;
+    margin-bottom: 100px;
+    background-color:rgb(255, 248, 239);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.source {
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color:rgb(57, 33, 20);
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color:rgb(57, 33, 20);
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+
+h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: -5px;
+}
+
+.description {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+
+li {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 8px;
+    list-style-position: outside;
+}
+
+ol {
+    margin-bottom: -10px;
+}
+
+.boldsmallcaps {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing:0.05em;
+    margin-bottom: -15px;
+}
+
+.images {
+    margin-right: -30%;
+    margin-bottom: 150px;
+}
+
+.clearfix{
+    clear:both;
+}

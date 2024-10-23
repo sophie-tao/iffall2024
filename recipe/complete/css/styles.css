@@ -9,6 +9,7 @@ body {
     color:rgb(57, 33, 20);
     line-height: 1.5;
     font-size: 18px;
+    margin-bottom:40px;
 }
 
 header {
@@ -383,4 +384,11 @@ ol>li>p:not(:first-child){
 
 @media (max-width: 1000px) {
     .tips-grid > li {width:100%; margin-bottom:0;}
+}
+
+footer > p {
+    text-align:center;
+    width:100%;
+    margin-top: 40px;
+    font-size:16px;
 }

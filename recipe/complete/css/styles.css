@@ -1,0 +1,386 @@
+body {
+    background-color: rgb(255, 248, 239);
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    color:rgb(57, 33, 20);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    background-image: url("../images/ClassicCinnamonRolls_10.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px 0 20px;
+}
+
+main {
+    background-color:  rgb(255, 248, 239);
+    width: 100%;
+    margin: 0;
+    border-top: rgb(57, 33, 20) solid 2px;
+}
+
+.main-content {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "gelica", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color:rgb(57, 33, 20);
+    margin: 40px 0 40px 0;
+    line-height: 1.2;
+}
+
+#header-image {
+    width:100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+@media (max-width: 1080px) {
+    #header-image {height: 500px;}
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    color:rgb(57, 33, 20);
+    line-height: 1.5;
+    font-size: 18px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 0;
+}
+
+.source {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.header-info {
+    padding: 0;
+    margin: 30px 0 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-info > li {
+    display: block;
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+
+.header-info > li > p {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border:rgb(57, 33, 20) solid 2px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#header-text {
+    border:rgb(57, 33, 20) solid 2px;
+    border-radius: 12px;
+    margin: 0;
+    background-color: rgb(255, 248, 239);
+    padding: 20px;
+}
+
+p.description {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+@media (max-width: 500px) {
+    #header-text {padding: 10px;}
+}
+
+#header-grid > li {
+    list-style-type: none;
+    width: 45%;
+    margin: 40px 10px 40px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    max-height: 100%;
+}
+
+@media (max-width: 1080px) {
+    #header-grid > li {width: 100%; margin:20px 10px 20px 10px;}
+    #header-grid {width:95%;}
+    #header-image {display: none;}
+    header {padding:0;}
+}
+
+#header-grid {
+    list-style-type: none;
+    padding: 0;
+    vertical-align: top;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 2000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ingredients-grid > li > p {
+    margin-bottom: 6px;
+    margin-top: 0;
+    line-height: 1.4;
+}
+
+#ingredients-grid > li {
+    margin: 0 0 18px 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 800px) {
+    #ingredients-grid > li {width: 100%;}
+}
+
+#ingredients-grid {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+#equipment-list {
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#equipment-list > li {
+    margin: 0;
+    width: 100%;
+}
+
+#equipment-list > li > p {
+    margin-bottom: 6px;
+    margin-top: 0;
+    line-height: 1.4;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.materials {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-bottom:rgb(57, 33, 20) solid 2px;
+}
+
+.materials > li{
+    margin: 0 0 36px 0;
+}
+
+#ingredients {
+    width: 65%;
+    margin-right: 40px;
+}
+
+#equipment {
+    width: 30%;
+}
+
+@media (max-width: 1100px) {
+    #ingredients {width:100%;}
+    #equipment {width:100%;}
+}
+
+.mini-text {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(204, 81, 136);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.ingredient-section {
+    margin-top: 16px;
+}
+
+h2 {
+    text-align: left;
+    font-family: "gelica", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color:rgb(57, 33, 20);
+    line-height: 1;
+    margin-bottom: 36px;
+    margin-top: 20px;
+}
+
+em {
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(204, 81, 136);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 32px;
+    margin-top: 84px;
+}
+
+.instructions {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    border-bottom:rgb(57, 33, 20) solid 2px;
+}
+
+.instructions-section {
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+ol {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol > li {
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol > li > p {
+    margin-bottom: 8px;
+    width: 60%;
+    margin-right: 0;
+}
+
+ol>li>p:not(:first-child){
+    padding-top: 24px;
+    border-top:rgb(57, 33, 20) dotted 2px;
+}
+
+.process-pic {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.step > li {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.step-text > p {
+    width: 95%;
+}
+
+.step-text {
+    width: 60%;
+    border-top:rgb(57, 33, 20) dotted 2px;
+    padding-top: 24px;
+    margin-right: 20px;
+}
+
+.step-pic {
+    width: 35%;
+    margin-left: 20px;
+}
+
+@media (max-width: 1040px) {
+    .step-text {width: 100%;}
+    .step-pic {width:90%; max-width:300px; margin-top:10px; margin-left:0;}
+    ol > li > p {width:90%;}
+}
+
+.tips-grid {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.tips-grid > li {
+    border-radius: 12px;
+    border:rgb(57, 33, 20) dotted 2px;
+    margin: 24px;
+    width: 25%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tips-grid > li > h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.tips-grid > li > p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+@media (max-width: 1000px) {
+    .tips-grid > li {width:100%; margin-bottom:0;}
+}

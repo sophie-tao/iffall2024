@@ -1,0 +1,298 @@
+body {
+    background-color: #E0EFF6;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    line-height: 1.4;
+}
+
+
+#all-nav {
+    width: 100%;
+    height: 100px;
+}
+
+.nav {
+    font-family: "Gaegu", sans-serif;
+    font-size: 20pt;
+    position: absolute; 
+    right: 0; 
+    top: 0;
+    width: 920px;
+    z-index: 99999;
+    height:100px;
+}
+
+.nav-circle {
+    height: 200px;
+    width: 200px;
+    background-color: #FFF1F1;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+}
+
+.home-circle {
+    height: 300px;
+    width: 300px;
+    background-color: #FFF1F1;
+    border-radius: 50%;
+    position: absolute;
+    top: -180px;
+    left: 0;
+}
+
+#home-button {
+    font-family: "Gaegu", sans-serif;
+    font-size: 20pt;
+    position: absolute;
+    width: 300px;
+    left: -40px;
+    height: 100px;
+}
+
+.nav-text {
+    width: 100%;
+    z-index: 9999;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    margin: 0;
+}
+
+#home-button .nav-text {
+    font-size: 28pt;
+    font-weight: bold;
+    margin-left: 5px;
+    top: 15px;
+}
+
+.nav-button {
+    position: absolute;
+    width: 200px;
+}
+
+#appearance-button {
+    right: 720px;
+}
+
+#behavior-button {
+    right: 540px;
+}
+
+#health-button {
+    right: 360px;
+}
+
+#history-button {
+    right: 180px;
+}
+
+#sources-button {
+    right: 0;
+}
+
+
+p {
+    z-index: 9999;
+}
+
+a {
+    text-decoration: none;
+    color: #3566A7;
+}
+
+
+header {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+header img {
+    width: 100%;
+    position: relative;
+    z-index: -9999;
+}
+
+header p {
+    font-family: "Gaegu", sans-serif;
+    font-size: 64pt;
+    font-weight: bold;
+    color: #FFECCE;
+    position: absolute;
+    left: 100px;
+    top: 140px;
+    width: 500px;
+    line-height: 1;
+    z-index: -9998;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #3566A7;
+    font-family: "Gaegu", sans-serif;
+    font-size: 28pt;
+    line-height: 1.2;
+}
+
+.content-grid {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    vertical-align: top;
+}
+
+.content-grid li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-grid .subtitle {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.content-grid .content {
+    width: 60%;
+}
+
+.circle-img {
+    border-radius: 50%;
+    object-fit:cover;
+    width:100%;
+    aspect-ratio: 1/1;
+}
+
+h1 {
+    text-align: center;
+    color: #3566A7;
+    font-family: "Gaegu", sans-serif;
+    font-size: 44pt;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.topics-grid {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -9997;
+}
+
+.topics-grid li {
+    width: 23%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.topics-grid img {
+    position: relative;
+}
+
+.button-text {
+    width: 100%;
+    z-index: 9999;
+    position: relative;
+    text-align: center;
+    font-family: "Gaegu", sans-serif;
+    font-size: 24pt;
+    margin: 0;
+}
+
+.caption {
+    width: 100%;
+    z-index: 9999;
+    position: relative;
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+    font-size: 16pt;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.topic-button {
+    aspect-ratio: 1/1;
+}
+
+ul {
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 12pt;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.content-top {
+    position: relative;
+    top: 200px;
+    height: 900px;
+}
+
+.content-top h1 {
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 70%;
+    left: 35%;
+}
+
+.content-top p {
+    position: relative;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+    left: 20%;
+}
+
+.big-circle-img {
+    border-radius: 50%;
+    object-fit:cover;
+    width:50%;
+    min-width: 500px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    left: -6%;
+    top: -200px;
+    z-index: -9999;
+}
+
+.bg-circle {
+    position: absolute;
+    width: 70%;
+    min-width: 800px;
+    aspect-ratio: 1/1;
+    background-color: #f1fbff;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: -50px;
+    z-index: -9999999;
+}
+
+.subtitle img {
+    width: 100%;
+    border-radius: 20px;
+}

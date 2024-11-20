@@ -28,8 +28,6 @@ body {
 }
 
 .nav {
-    font-family: "Gaegu", sans-serif;
-    font-size: 20pt;
     position: absolute; 
     right: 0; 
     top: -100;
@@ -42,6 +40,14 @@ body {
 
 .nav a {
     vertical-align: middle;
+    font-family: "Gaegu", sans-serif;
+    font-size: 20pt;
+    transition: 0.3s all;
+}
+
+.nav a:hover {
+    font-size: 21pt;
+    font-weight: bold;
 }
 
 #scallop-bar {
@@ -55,8 +61,12 @@ body {
     margin-right: 400px;
     top: 15px;
     width: 30%;
-    color: #b11998;
     vertical-align: middle;
+    transition: 0.3s all;
+}
+
+#home-button:hover {
+    font-size: 25pt;
 }
 
 
@@ -72,7 +82,7 @@ a {
 
 header {
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 0;
 }
 
 header img {
@@ -86,7 +96,7 @@ header img {
     bottom: 0;
     left: 0;
     width: 100%;
-    height:400px;
+    height:350px;
     object-fit: cover;
 }
 
@@ -111,11 +121,16 @@ main {
     margin-right: auto;
 }
 
+#sources {
+    margin-top: 150px;
+}
+
 h2 {
     color: #3566A7;
     font-family: "Gaegu", sans-serif;
-    font-size: 28pt;
+    font-size: 26pt;
     line-height: 1.2;
+    margin: 0;
 }
 
 .content-grid {
@@ -132,8 +147,15 @@ h2 {
 }
 
 .content-grid .subtitle {
-    width: 30%;
-    margin-right: 20px;
+    width: 25%;
+    margin-right: 40px;
+    text-align: right;
+    font-size: 22pt;
+    margin-top: 20px;
+}
+
+.subtitle p {
+    padding-right: 40px;
 }
 
 .content-grid .content {
@@ -153,13 +175,14 @@ h1 {
     font-family: "Gaegu", sans-serif;
     font-size: 44pt;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .topics-grid {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 0;
     margin-bottom: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -218,49 +241,52 @@ footer {
 }
 
 .content-top {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
-    top: 200px;
-    height: 900px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+.content-top li {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content-top h1 {
-    position: absolute;
     text-align: center;
-    top: 40px;
-    width: 70%;
-    left: 35%;
 }
 
 .content-top p {
-    position: relative;
-    width: 40%;
     margin-left: auto;
     margin-right: auto;
-    top: 200px;
-    left: 20%;
 }
 
 .big-circle-img {
-    border-radius: 50%;
+    aspect-ratio: 1/1.2;
+    border-radius: 10%;
     object-fit:cover;
-    width:50%;
-    min-width: 500px;
-    aspect-ratio: 1/1;
-    position: absolute;
-    left: -6%;
-    top: -200px;
+    width:90%;
+    min-width: 200px;
     z-index: -9999;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bg-circle {
     position: absolute;
-    width: 70%;
+    width: 50%;
     min-width: 800px;
     aspect-ratio: 1/1;
     background-color: #f1fbff;
     border-radius: 50%;
-    position: absolute;
-    left: 35%;
+    left: 45%;
     top: -50px;
     z-index: -9999999;
 }
@@ -268,6 +294,12 @@ footer {
 .subtitle img {
     width: 100%;
     border-radius: 20px;
+    margin-bottom: 70px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -275,22 +307,33 @@ footer {
 
 @media (max-width: 1100px) {
     header p {font-size: 48pt; width: 400px; top: 15%;}
+    #pom-header-pic {width: 100%; height: 520px; object-fit: cover;}
+    #blue-scallop {width: 1440px; height: 250px; object-fit: cover; bottom:0px;}
 }
 
 @media (max-width: 800px) {
     header p {font-size: 36pt; width: 300px; top: 20%;}
     header #pom-header-pic {width:100%; height: 480px; object-fit: cover;}
-    .content-grid .subtitle {width: 100%;}
+    #blue-scallop {width: 1440px; height: 250px; object-fit: cover; bottom:0px;}
+    .content-grid .subtitle {width: 100%; text-align: left;}
     .content-grid .content {width: 100%;}
     .content-grid p {max-width:600px;}
-    .content-grid {margin-left: auto; margin-right: auto; }
+    .content-grid {margin-left: auto; margin-right: auto; margin-bottom: 10px;}
     main {width:80%;}
     .topics-grid li {width: 45%;}
+    h1 {font-size: 36pt;}
+    .content-top li {width: 100%;}
+    .big-circle-img {aspect-ratio: 1.2/1; margin-left: auto; margin-right: auto; width:100%;}
+    .bg-circle {width: 120%; min-width: 800px; left: -10%; top: 35%;}
+    .content-top p {width: 90%;}
+    .subtitle img {margin-bottom: 20px; width: 47%; height: 300px; object-fit: cover; margin-right: 10px;}
 }
 
 @media (max-width: 500px) {
-    header p {color: #1d3658; font-size:30pt; width: 50%; line-height: 1.1;}
-    .nav {font-size: 16pt;}
+    header p {font-size:30pt; width: 50%; line-height: 1.1;}
+    .nav a {font-size: 16pt;}
     #home-button {font-size: 18pt;}
     .topics-grid li {width: 100%;}
+    h1 {font-size: 36pt;}
+    .content-top p {font-size:14pt; width: 90%;}
 }

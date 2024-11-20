@@ -302,6 +302,45 @@ html, body {
     overflow-x: hidden;
 }
 
+.hamburger {
+    display: none;
+    padding: 6px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu {
+    background-color:#FEF1F1;
+    padding: 18px;
+    border-radius: 16px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 100px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu a:hover {
+    font-size: 18pt;
+}
+
+input[type='checkbox']:not(:checked)+li {
+    display: none;
+}
+
+input[type='checkbox'], label {
+    display: none;
+}
+
 
 
 
@@ -327,6 +366,10 @@ html, body {
     .bg-circle {width: 120%; min-width: 800px; left: -10%; top: 35%;}
     .content-top p {width: 90%;}
     .subtitle img {margin-bottom: 20px; width: 47%; height: 300px; object-fit: cover; margin-right: 10px;}
+    .nav a {font-size: 16pt;}
+    #home-button {font-size: 18pt;}
+    .hamburger {display: block;}
+    .subpage {display: none;}
 }
 
 @media (max-width: 500px) {

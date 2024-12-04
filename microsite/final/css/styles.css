@@ -341,24 +341,6 @@ ul {
 }
 
 
-footer {
-    text-align: center;
-    font-size: 12pt;
-    margin-top: 100px;
-    margin-bottom: 0;
-    padding: 20px;
-    background-color:#bdd2e6;
-}
-
-footer p{
-    margin: 5px;
-}
-
-#sources-footer {
-    position:fixed;
-    bottom: 0;
-    width:100%;
-}
 
 .content-top {
     list-style-type: none;
@@ -514,6 +496,44 @@ input[type='checkbox'], label {
   }
 
 
+
+footer {
+    text-align: left;
+    font-size: 12pt;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding: 20px;
+    background-color:#bdd2e6;
+}
+
+footer p{
+    margin: 5px;
+}
+
+#sources-footer {
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    text-align: left;
+
+}
+
+.footer-grid {
+    list-style-type: none;
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.footer-grid li {
+    margin: 0 10px;
+}
+
+.footer-grid li a:hover {
+    font-weight:500;
+    transition:0.2s;
+}
 
 
 

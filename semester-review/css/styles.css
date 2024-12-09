@@ -32,6 +32,17 @@ h2 {
     margin-top: 0;
     margin-bottom: 40px;
 }
+
+h3 {
+    color: #1b70a9;
+    font-size: 24px;
+    font-family: "ivypresto-headline", serif;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    padding: 20px 25px 0 15px;
+    margin: 0;
+}
   
 main {
     padding: 20px;
@@ -65,7 +76,7 @@ main {
 }
   
 .card p {
-    padding: 15px 25px;
+    padding: 0 25px 15px 25px;
     color: #555555;
     text-align: center;
 }
